@@ -1,0 +1,23 @@
+<resources>
+    <style name="Theme.BingwaAuto" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#2E5C84</item>
+        <item name="colorPrimaryVariant">#17314F</item>
+        <item name="colorSecondary">#1D7AE0</item>
+        <item name="android:windowBackground">#071827</item>
+        <item name="android:statusBarColor">#071827</item>
+        <item name="android:navigationBarColor">#071827</item>
+        <item name="materialButtonStyle">@style/Widget.Bingwa.Button</item>
+    </style>
+
+    <style name="Widget.Bingwa.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#2E5C84</item>
+        <item name="android:textColor">#F2F4F7</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Bingwa.Button.Dark" parent="Widget.Bingwa.Button">
+        <item name="backgroundTint">#17314F</item>
+        <item name="android:textColor">#A9D8FF</item>
+    </style>
+</resources>
